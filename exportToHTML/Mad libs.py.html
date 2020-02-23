@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Mad libs.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+.s4 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Mad libs.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">time</span>
+<span class="s0">class </span><span class="s1">color:</span>
+   <span class="s1">PURPLE = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[95m'</span>
+   <span class="s1">CYAN = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[96m'</span>
+   <span class="s1">DARKCYAN = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[36m'</span>
+   <span class="s1">BLUE = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[94m'</span>
+   <span class="s1">GREEN = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[92m'</span>
+   <span class="s1">YELLOW = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[93m'</span>
+   <span class="s1">RED = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[91m'</span>
+   <span class="s1">BOLD = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[1m'</span>
+   <span class="s1">UNDERLINE = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[4m'</span>
+   <span class="s1">END = </span><span class="s2">'</span><span class="s0">\033</span><span class="s2">[0m'</span>
+
+<span class="s0">def </span><span class="s1">mad1():</span>
+    <span class="s1">verb1 = input(</span><span class="s2">&quot;Enter a verb ending in ing: &quot;</span><span class="s1">)</span>
+    <span class="s1">noun1 = input(</span><span class="s2">&quot;Enter a noun: &quot;</span><span class="s1">)</span>
+    <span class="s1">adjective1 = input(</span><span class="s2">&quot;Enter a adjective: &quot;</span><span class="s1">)</span>
+    <span class="s1">bodypart = input(</span><span class="s2">&quot;Enter a body part: &quot;</span><span class="s1">)</span>
+    <span class="s1">noun2 = input(</span><span class="s2">&quot;Enter a  plural noun: &quot;</span><span class="s1">)</span>
+    <span class="s1">noun3 = input(</span><span class="s2">&quot;Enter a noun: &quot;</span><span class="s1">)</span>
+    <span class="s1">verb2 = input(</span><span class="s2">&quot;Enter a verb ending in ing: &quot;</span><span class="s1">)</span>
+    <span class="s1">verb3 = input(</span><span class="s2">&quot;Enter a verb: &quot;</span><span class="s1">)</span>
+    <span class="s1">adjective2 = input(</span><span class="s2">&quot;Enter a adjective: &quot;</span><span class="s1">)</span>
+    <span class="s1">name = input(</span><span class="s2">&quot;Enter a name: &quot;</span><span class="s1">)</span>
+
+
+    <span class="s1">print(</span><span class="s2">&quot; </span><span class="s0">\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n </span><span class="s2">&quot;</span><span class="s1">)</span>
+    <span class="s1">print(color.BOLD + color.RED + </span><span class="s2">&quot;                  Summer camp letter&quot; </span><span class="s1">+ color.END)</span>
+    <span class="s1">print(</span><span class="s2">&quot;   To Mom&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Hi mom I am &quot; </span><span class="s1">+ verb1 + </span><span class="s2">&quot; to you from summer camp. How is it going back home, it is good down here.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;There was a violent &quot; </span><span class="s1">+ noun1 + </span><span class="s2">&quot; down here last night. It &quot; </span><span class="s1">+ adjective1 + </span><span class="s2">&quot;ed everyone. I hope there are no more.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;We also went on a hiking trip. I almost broke my &quot; </span><span class="s1">+ bodypart + </span><span class="s2">&quot; wile hiking.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;One of the &quot; </span><span class="s1">+ noun2 + </span><span class="s2">&quot; in our &quot; </span><span class="s1">+ noun3 + </span><span class="s2">&quot; burned out and they don't have any replacement &quot; </span><span class="s1">+ noun2 + </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;We had to do a lot of &quot; </span><span class="s1">+ verb2 + </span><span class="s2">&quot; on Tuesday. We also had to &quot; </span><span class="s1">+ verb3 + </span><span class="s2">&quot; on making a art project.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;The pillows down here are nice and &quot; </span><span class="s1">+ adjective2)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Any ways i will write back to you latter &quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;with much love: &quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;             &quot; </span><span class="s1">+ name)</span>
+    <span class="s1">time.sleep(</span><span class="s3">5</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;-----------------------</span><span class="s0">\n </span><span class="s2">Thank you for playing! </span><span class="s0">\n</span><span class="s2">&quot; </span><span class="s1">+ color.BOLD + color.BLUE + </span><span class="s2">&quot;      Credits: &quot; </span><span class="s1">+ color.END + </span><span class="s2">&quot; </span><span class="s0">\n </span><span class="s2">Color/Boldnes: Jim </span><span class="s0">\n </span><span class="s2">Main programing: Me </span><span class="s0">\n</span><span class="s2">-----------------------&quot;</span><span class="s1">)</span>
+
+<span class="s0">def </span><span class="s1">mad2():</span>
+    <span class="s1">name = input(</span><span class="s2">&quot;Enter a woman's name: &quot;</span><span class="s1">)</span>
+    <span class="s1">gender = input(</span><span class="s2">&quot;Enter son or daughter: &quot;</span><span class="s1">)</span>
+    <span class="s1">noun1 = input(</span><span class="s2">&quot;Enter a noun: &quot;</span><span class="s1">)</span>
+    <span class="s4">#gender2 = input(&quot;Enter He or She: &quot;)</span>
+    <span class="s1">noun2 = input(</span><span class="s2">&quot;Enter a noun: &quot;</span><span class="s1">)</span>
+    <span class="s1">verb1 = input(</span><span class="s2">&quot;Enter a verb ending in ing: &quot;</span><span class="s1">)</span>
+    <span class="s1">noun3 = input(</span><span class="s2">&quot;Enter a noun: &quot;</span><span class="s1">)</span>
+    <span class="s1">dc = input(</span><span class="s2">&quot;Enter a last name: &quot;</span><span class="s1">)</span>
+    <span class="s1">adjective1 = input(</span><span class="s2">&quot;Enter a adjective: &quot;</span><span class="s1">)</span>
+    <span class="s1">date = input(</span><span class="s2">&quot;Enter a date in this format: </span><span class="s0">\&quot;</span><span class="s2">Month</span><span class="s0">\&quot; \&quot;</span><span class="s2">Day</span><span class="s0">\&quot; \&quot;</span><span class="s2">Year</span><span class="s0">\&quot;</span><span class="s2">: &quot;</span><span class="s1">)</span>
+    <span class="s1">verb2 = input(</span><span class="s2">&quot;Enter a verb: &quot;</span><span class="s1">)</span>
+    <span class="s1">name2 = input(</span><span class="s2">&quot;Enter a name: &quot;</span><span class="s1">)</span>
+    <span class="s4">#verb3 = input(&quot;Enter a verb: &quot;)</span>
+    <span class="s4">#adjective2 = input(&quot;Enter a adjective: &quot;)</span>
+    <span class="s4">#adjective3 = input(&quot;Enter a adjective: &quot;)</span>
+    <span class="s0">if </span><span class="s1">gender == </span><span class="s2">&quot;son&quot;</span><span class="s1">:</span>
+        <span class="s1">gender2 = </span><span class="s2">&quot;He&quot;</span>
+    <span class="s0">else</span><span class="s1">:</span>
+        <span class="s1">gender2 = </span><span class="s2">&quot;She&quot;</span>
+
+
+
+
+    <span class="s1">print(</span><span class="s2">&quot; </span><span class="s0">\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n </span><span class="s2">&quot;</span><span class="s1">)</span>
+    <span class="s1">print(color.BOLD + color.RED + </span><span class="s2">&quot;             Doctors note&quot; </span><span class="s1">+ color.END)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Dear Mrs.&quot; </span><span class="s1">+ name)</span>
+    <span class="s1">print(</span><span class="s2">&quot;my &quot; </span><span class="s1">+ gender + </span><span class="s2">&quot; has came down with a case of the &quot; </span><span class="s1">+ noun1 + </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(gender2 + </span><span class="s2">&quot; will &quot; </span><span class="s1">+ color.BOLD + </span><span class="s2">&quot;NOT &quot; </span><span class="s1">+ color.END + </span><span class="s2">&quot;be attending &quot; </span><span class="s1">+ noun2 + </span><span class="s2">&quot; today&quot;</span><span class="s1">)</span>
+    <span class="s1">print(gender2 + </span><span class="s2">&quot; has been &quot; </span><span class="s1">+ verb1 + </span><span class="s2">&quot; all &quot; </span><span class="s1">+ noun3 + </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;I have made a appointment with Dc.&quot; </span><span class="s1">+ dc + </span><span class="s2">&quot;, &quot; </span><span class="s1">+ gender2 + </span><span class="s2">&quot; is </span><span class="s0">\n</span><span class="s2">&quot; </span><span class="s1">+ adjective1 + </span><span class="s2">&quot; for a appointment on &quot; </span><span class="s1">+ date + </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Dc.&quot; </span><span class="s1">+ dc + </span><span class="s2">&quot; has been &quot; </span><span class="s1">+ verb2 + </span><span class="s2">&quot;ed at a very high level. </span><span class="s0">\n </span><span class="s2">He will get back to you with all of the information ASAP.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;      sincerely &quot; </span><span class="s1">+ name2 + </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+    <span class="s1">time.sleep(</span><span class="s3">5</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;-----------------------</span><span class="s0">\n </span><span class="s2">Thank you for playing </span><span class="s0">\n</span><span class="s2">&quot; </span><span class="s1">+ color.BOLD + color.BLUE + </span><span class="s2">&quot;      Credits: &quot; </span><span class="s1">+ color.END + </span><span class="s2">&quot; </span><span class="s0">\n </span><span class="s2">Color/Boldnes: Jim </span><span class="s0">\n </span><span class="s2">Main programing: Me </span><span class="s0">\n</span><span class="s2">-----------------------&quot;</span><span class="s1">)</span>
+
+<span class="s0">def </span><span class="s1">mad3():</span>
+    <span class="s4">#verb1 = input(&quot;Enter a verb ending in ing: &quot;)</span>
+    <span class="s4">#noun1 = input(&quot;Enter a noun: &quot;)</span>
+    <span class="s1">somthing_scarry = input(</span><span class="s2">&quot;Enter something scary: &quot;</span><span class="s1">)</span>
+    <span class="s1">year = input(</span><span class="s2">&quot;Enter a year. Example:</span><span class="s0">\&quot;</span><span class="s2">1993</span><span class="s0">\&quot;</span><span class="s2">: &quot;</span><span class="s1">)</span>
+    <span class="s4">#noun2 = input(&quot;Enter a  plural noun: &quot;)</span>
+    <span class="s4">#noun3 = input(&quot;Enter a noun: &quot;)</span>
+    <span class="s4">#verb2 = input(&quot;Enter a verb ending in ing: &quot;)</span>
+    <span class="s4">#verb3 = input(&quot;Enter a verb: &quot;)</span>
+    <span class="s4">#adjective2 = input(&quot;Enter a adjective: &quot;)</span>
+    <span class="s1">place = input(</span><span class="s2">&quot;Enter a place: &quot;</span><span class="s1">)</span>
+    <span class="s1">bodypart = input(</span><span class="s2">&quot;Enter a Body part: &quot;</span><span class="s1">)</span>
+
+    <span class="s1">print(</span><span class="s2">&quot; </span><span class="s0">\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n </span><span class="s2">&quot;</span><span class="s1">)</span>
+    <span class="s1">print(color.BOLD + color.RED + </span><span class="s2">&quot;                          War&quot; </span><span class="s1">+ color.END)</span>
+    <span class="s1">print(</span><span class="s2">&quot;It was the year, &quot; </span><span class="s1">+ year + </span><span class="s2">&quot;. It took place in a place called &quot; </span><span class="s1">+ place + </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;I lost my &quot; </span><span class="s1">+ bodypart + </span><span class="s2">&quot;(s) in a I.E.D explosion. It was as scary as &quot; </span><span class="s1">+ somthing_scarry)</span>
+
+
+<span class="s1">X = input(</span><span class="s2">&quot;Chose a Mad Lib 1-2: &quot;</span><span class="s1">)</span>
+<span class="s0">if </span><span class="s1">X == </span><span class="s2">&quot;1&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Initiating Mad Libs 1&quot;</span><span class="s1">)</span>
+    <span class="s1">time.sleep(</span><span class="s3">2</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;initiated&quot;</span><span class="s1">)</span>
+    <span class="s1">time.sleep(</span><span class="s3">.5</span><span class="s1">)</span>
+    <span class="s1">mad1()</span>
+<span class="s0">elif </span><span class="s1">X == </span><span class="s2">&quot;2&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Initiating Mad Libs 2&quot;</span><span class="s1">)</span>
+    <span class="s1">time.sleep(</span><span class="s3">2</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;initiated&quot;</span><span class="s1">)</span>
+    <span class="s1">time.sleep(</span><span class="s3">.5</span><span class="s1">)</span>
+    <span class="s1">mad2()</span>
+<span class="s0">elif </span><span class="s1">X == </span><span class="s2">&quot;3&quot;</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Initiating Mad Libs 3&quot;</span><span class="s1">)</span>
+    <span class="s1">time.sleep(</span><span class="s3">2</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;initiated&quot;</span><span class="s1">)</span>
+    <span class="s1">time.sleep(</span><span class="s3">.5</span><span class="s1">)</span>
+    <span class="s1">mad3()</span>
+<span class="s0">elif not</span><span class="s1">(X == </span><span class="s2">&quot;1&quot;</span><span class="s1">) </span><span class="s0">and not</span><span class="s1">(X == </span><span class="s2">&quot;2&quot;</span><span class="s1">):</span>
+    <span class="s1">print(</span><span class="s2">&quot;Not a valid Mad Lib&quot;</span><span class="s1">)</span>
+
+
+
+
+
+
+</pre>
+</body>
+</html>
