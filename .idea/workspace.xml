@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa4eaab9-49b5-4d74-9dd5-7fa16aa65a95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mad libs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mad libs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +146,19 @@
       <option name="presentableId" value="Default" />
       <updated>1582399835019</updated>
     </task>
+    <task id="LOCAL-00001" summary="Just testing :)">
+      <created>1582480930558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582480930558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Just testing :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just testing :)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="614" y="134" key="CommitChangelistDialog2" timestamp="1582480928345">
