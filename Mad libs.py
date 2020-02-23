@@ -61,7 +61,7 @@ def mad2():
         gender2 = "She"
 
 
-
+# test
 
     print(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
     print(color.BOLD + color.RED + "             Doctors note" + color.END)
