@@ -188,10 +188,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Just testing/adding some junk :)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="134" key="CommitChangelistDialog2" timestamp="1582486921508">
+    <state x="614" y="134" key="CommitChangelistDialog2" timestamp="1582487279623">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="614" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582486921508" />
+    <state x="614" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582487279623" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1582476825655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -248,6 +248,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="596" y="212" key="SettingsEditor/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582479965288" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1582487289487">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582487289487" />
     <state x="661" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1582485891582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

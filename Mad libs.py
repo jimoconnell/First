@@ -92,7 +92,7 @@ def mad3():
     print("It was the year, " + year + ". It took place in a place called " + place + ".")
     print("I lost my " + bodypart + "(s) in a I.E.D explosion. It was as scary as " + somthing_scarry)
 
-#test s
+
 
 X = input("Chose a Mad Lib 1-2: ")
 if X == "1":
