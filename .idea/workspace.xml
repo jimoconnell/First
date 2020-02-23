@@ -23,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1YAykFfG4z8cEhyLOPKge9Snhj6" />
   <component name="ProjectViewState">
@@ -154,18 +155,26 @@
       <option name="project" value="LOCAL" />
       <updated>1582480930558</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Just testing/adding some junk :)">
+      <created>1582486716348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582486716348</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Just testing :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just testing :)" />
+    <MESSAGE value="Just testing/adding some junk :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just testing/adding some junk :)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="134" key="CommitChangelistDialog2" timestamp="1582480928345">
+    <state x="614" y="134" key="CommitChangelistDialog2" timestamp="1582486712664">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="614" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582480928345" />
+    <state x="614" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582486712664" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1582476825655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -226,6 +235,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="661" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582485891582" />
+    <state x="769" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582486727696">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="769" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582486727696" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1582467637775">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
