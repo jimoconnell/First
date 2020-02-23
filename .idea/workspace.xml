@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa4eaab9-49b5-4d74-9dd5-7fa16aa65a95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mad libs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mad libs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,8 +161,26 @@
       <option name="project" value="LOCAL" />
       <updated>1582486716348</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Just testing/adding some junk :)">
+      <created>1582486923715</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582486923715</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Just testing :)" />
@@ -171,10 +188,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Just testing/adding some junk :)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="134" key="CommitChangelistDialog2" timestamp="1582486712664">
+    <state x="614" y="134" key="CommitChangelistDialog2" timestamp="1582486921508">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="614" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582486712664" />
+    <state x="614" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582486921508" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1582476825655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -235,10 +252,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="661" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582485891582" />
-    <state x="769" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582486727696">
+    <state x="769" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582487099383">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="769" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582486727696" />
+    <state x="769" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1582487099383" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1582467637775">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
