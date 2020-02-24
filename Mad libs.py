@@ -37,13 +37,12 @@ def mad1():
     print("with much love: ")
     print("             " + name)
     time.sleep(5)
-    print("-----------------------\n Thank you for playing! \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Color/Boldnes: Jim \n Main programing: Me \n-----------------------")
+    print("-----------------------\n Thank you for playing \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Main programing: Me \n Color/Boldness: Jim \n-----------------------")
 
 def mad2():
     name = input("Enter a woman's name: ")
     gender = input("Enter son or daughter: ")
     noun1 = input("Enter a noun: ")
-    #gender2 = input("Enter He or She: ")
     noun2 = input("Enter a noun: ")
     verb1 = input("Enter a verb ending in ing: ")
     noun3 = input("Enter a noun: ")
@@ -52,9 +51,6 @@ def mad2():
     date = input("Enter a date in this format: \"Month\" \"Day\" \"Year\": ")
     verb2 = input("Enter a verb: ")
     name2 = input("Enter a name: ")
-    #verb3 = input("Enter a verb: ")
-    #adjective2 = input("Enter a adjective: ")
-    #adjective3 = input("Enter a adjective: ")
     if gender == "son":
         gender2 = "He"
     else:
@@ -69,32 +65,34 @@ def mad2():
     print(gender2 + " will " + color.BOLD + "NOT " + color.END + "be attending " + noun2 + " today")
     print(gender2 + " has been " + verb1 + " all " + noun3 + ".")
     print("I have made a appointment with Dc." + dc + ", " + gender2 + " is \n" + adjective1 + " for a appointment on " + date + ".")
-    print("Dc." + dc + " has been " + verb2 + "ed at a very high level. \n He will get back to you with all of the information ASAP.")
+    print("Dc." + dc + " has been " + verb2 + "ed at a very high level. \nHe will get back to you with all of the information ASAP.")
     print("      sincerely " + name2 + ".")
     time.sleep(5)
-    print("-----------------------\n Thank you for playing \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Color/Boldnes: Jim \n Main programing: Me \n-----------------------")
+    print("-----------------------\n Thank you for playing \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Main programing: Me \n Color/Boldness: Jim \n-----------------------")
 
 def mad3():
-    #verb1 = input("Enter a verb ending in ing: ")
-    #noun1 = input("Enter a noun: ")
-    somthing_scarry = input("Enter something scary: ")
     year = input("Enter a year. Example:\"1993\": ")
-    #noun2 = input("Enter a  plural noun: ")
-    #noun3 = input("Enter a noun: ")
-    #verb2 = input("Enter a verb ending in ing: ")
-    #verb3 = input("Enter a verb: ")
-    #adjective2 = input("Enter a adjective: ")
     place = input("Enter a place: ")
+    noun1 = input("Enter a noun: ")
+    verb1 = input("Enter a verb: ")
     bodypart = input("Enter a Body part: ")
+    somthing_scarry = input("Enter something scary: ")
+    number = input("Enter a  number: ")
 
     print(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
     print(color.BOLD + color.RED + "                          War" + color.END)
     print("It was the year, " + year + ". It took place in a place called " + place + ".")
-    print("I lost my " + bodypart + "(s) in a I.E.D explosion. It was as scary as " + somthing_scarry)
+    print("it was the war named " + noun1 + ". Suddenly are commander yelled " + color.BOLD + verb1 + color.END + ".")
+    print("He yelled " + verb1 + "because a explosion just went off beside me.")
+    print("I lost my " + bodypart + "(s) in a explosion. It was as scary as " + somthing_scarry + ".")
+    print("Finally after a whole " + number + "days the white flag appeared on the other side of the field.")
+    print("WE WON.")
+    time.sleep(5)
+    print("-----------------------\n Thank you for playing \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Main programing: Me \n Color/Boldness: Jim \n-----------------------")
 
 
 
-X = input("Chose a Mad Lib 1-2: ")
+X = input("Chose a Mad Lib 1-3: ")
 if X == "1":
     print("Initiating Mad Libs 1")
     time.sleep(2)
@@ -115,9 +113,6 @@ elif X == "3":
     mad3()
 elif not(X == "1") and not(X == "2"):
     print("Not a valid Mad Lib")
-
-
-#Test
 
 
 
