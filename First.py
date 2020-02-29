@@ -16,11 +16,16 @@ def yes_or_no(question):
     answer = input(question + "(1-3): ")
     print("")
     while not(answer == "1" or answer == "2" or answer == "3"):
-        print("Input a number, 1-3")
+        print("Invalid mad lib.")
         answer = input(question + "(1-3):")
         print("")
 
     if answer == "1":
+        print("Initiating mad libs 1")
+        time.sleep(1)
+        print("Initiated")
+        time.sleep(.5)
+
         verb1 = input("Enter a verb ending in \"ing\": ")
         noun1 = input("Enter a noun: ")
         adjective1 = input("Enter a adjective: ")
@@ -31,7 +36,6 @@ def yes_or_no(question):
         verb3 = input("Enter a verb: ")
         adjective2 = input("Enter a adjective: ")
         name = input("Enter a name: ")
-
 
         print(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
         print(color.BOLD + color.RED + "                  Summer camp letter" + color.END)
@@ -46,10 +50,16 @@ def yes_or_no(question):
         print("with much love: ")
         print("             " + name)
         time.sleep(5)
-        print("-----------------------\n Thank you for playing \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Main programing: Me \n Color/Boldness: Jim \n-----------------------")
+        print(    "-----------------------\n Thank you for playing \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Main programing: Me \n Color/Boldness: Jim \n-----------------------")
 
         return True
+
     if answer == "2":
+        print("Initiating mad libs 2")
+        time.sleep(1)
+        print("Initiated")
+        time.sleep(.5)
+
         name = input("Enter a woman's name: ")
         gender = input("Enter son or daughter: ")
         noun1 = input("Enter a noun: ")
@@ -84,6 +94,11 @@ def yes_or_no(question):
 
         return True
     if answer == "3":
+        print("Initiating mad libs 3")
+        time.sleep(1)
+        print("Initiated")
+        time.sleep(.5)
+
         year = input("Enter a year. Example:\"1993\": ")
         place = input("Enter a place: ")
         noun1 = input("Enter a noun: ")
@@ -109,9 +124,8 @@ def yes_or_no(question):
         return True
     else:
         return False
-#print(args.echo)
 if yes_or_no("Please select a number"):
-    print("Excellent! :D")
+    print(" ")
 else:
     print(bcolors.FAIL + "Operation cancelled. \nNo mail sent!\n ")
     exit()
