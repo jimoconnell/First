@@ -19,18 +19,18 @@ def yes_or_no(question):
         print("Input a number, 1-3")
         answer = input(question + "(1 - 3):")
         print("")
-    if answer == 1:
 
-        verb1 = input("Enter a verb ending in ing: ")
-        noun1 = input("Enter a noun: ")
-        adjective1 = input("Enter a adjective: ")
-        bodypart = input("Enter a body part: ")
-        noun2 = input("Enter a  plural noun: ")
-        noun3 = input("Enter a noun: ")
-        verb2 = input("Enter a verb ending in ing: ")
-        verb3 = input("Enter a verb: ")
-        adjective2 = input("Enter a adjective: ")
-        name = input("Enter a name: ")
+    if answer == 1:
+        verb1 = raw_input("Enter a verb ending in \"ing\": ")
+        noun1 = raw_input("Enter a noun: ")
+        adjective1 = raw_input("Enter a adjective: ")
+        bodypart = raw_input("Enter a body part: ")
+        noun2 = raw_input("Enter a  plural noun: ")
+        noun3 = raw_input("Enter a noun: ")
+        verb2 = raw_input("Enter a verb ending in ing: ")
+        verb3 = raw_input("Enter a verb: ")
+        adjective2 = raw_input("Enter a adjective: ")
+        name = raw_input("Enter a name: ")
 
 
         print(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
