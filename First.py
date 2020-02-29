@@ -15,22 +15,22 @@ class color:
 def yes_or_no(question):
     answer = input(question + "(1-3): ")
     print("")
-    while not(answer == 1  or answer == 2 or answer == 3):
+    while not(answer == "1" or answer == "2" or answer == "3"):
         print("Input a number, 1-3")
-        answer = input(question + "(1 - 3):")
+        answer = input(question + "(1-3):")
         print("")
 
-    if answer == 1:
-        verb1 = raw_input("Enter a verb ending in \"ing\": ")
-        noun1 = raw_input("Enter a noun: ")
-        adjective1 = raw_input("Enter a adjective: ")
-        bodypart = raw_input("Enter a body part: ")
-        noun2 = raw_input("Enter a  plural noun: ")
-        noun3 = raw_input("Enter a noun: ")
-        verb2 = raw_input("Enter a verb ending in ing: ")
-        verb3 = raw_input("Enter a verb: ")
-        adjective2 = raw_input("Enter a adjective: ")
-        name = raw_input("Enter a name: ")
+    if answer == "1":
+        verb1 = input("Enter a verb ending in \"ing\": ")
+        noun1 = input("Enter a noun: ")
+        adjective1 = input("Enter a adjective: ")
+        bodypart = input("Enter a body part: ")
+        noun2 = input("Enter a  plural noun: ")
+        noun3 = input("Enter a noun: ")
+        verb2 = input("Enter a verb ending in ing: ")
+        verb3 = input("Enter a verb: ")
+        adjective2 = input("Enter a adjective: ")
+        name = input("Enter a name: ")
 
 
         print(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
@@ -49,16 +49,68 @@ def yes_or_no(question):
         print("-----------------------\n Thank you for playing \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Main programing: Me \n Color/Boldness: Jim \n-----------------------")
 
         return True
-    if answer == 2:
-        print("You typed a 2")
+    if answer == "2":
+        name = input("Enter a woman's name: ")
+        gender = input("Enter son or daughter: ")
+        noun1 = input("Enter a noun: ")
+        noun2 = input("Enter a noun: ")
+        verb1 = input("Enter a verb ending in ing: ")
+        noun3 = input("Enter a noun: ")
+        dc = input("Enter a last name: ")
+        adjective1 = input("Enter a adjective: ")
+        date = input("Enter a date in this format: \"Month\" \"Day\" \"Year\": ")
+        verb2 = input("Enter a verb: ")
+        name2 = input("Enter a name: ")
+        if gender == "son":
+            gender2 = "He"
+        else:
+            gender2 = "She"
+
+        print(
+            " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
+        print(color.BOLD + color.RED + "             Doctors note" + color.END)
+        print("Dear Mrs." + name)
+        print("my " + gender + " has came down with a case of the " + noun1 + ".")
+        print(gender2 + " will " + color.BOLD + "NOT " + color.END + "be attending " + noun2 + " today")
+        print(gender2 + " has been " + verb1 + " all " + noun3 + ".")
+        print(
+            "I have made a appointment with Dc." + dc + ", " + gender2 + " is \n" + adjective1 + " for a appointment on " + date + ".")
+        print(
+            "Dc." + dc + " has been " + verb2 + "ed at a very high level. \nHe will get back to you with all of the information ASAP.")
+        print("      sincerely " + name2 + ".")
+        time.sleep(5)
+        print(
+            "-----------------------\n Thank you for playing \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Main programing: Me \n Color/Boldness: Jim \n-----------------------")
+
         return True
-    if answer == 3:
-        print("You typed a 3.  Pfft. 3 is for LOOSERS. :-p")
-        return True                
+    if answer == "3":
+        year = input("Enter a year. Example:\"1993\": ")
+        place = input("Enter a place: ")
+        noun1 = input("Enter a noun: ")
+        verb1 = input("Enter a verb: ")
+        bodypart = input("Enter a Body part: ")
+        somthing_scarry = input("Enter something scary: ")
+        number = input("Enter a  number: ")
+
+        print(
+            " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
+        print(color.BOLD + color.RED + "                          War" + color.END)
+        print("It was the year, " + year + ". It took place in a place called " + place + ".")
+        print(
+            "it was the war named " + noun1 + ". Suddenly are commander yelled " + color.BOLD + verb1 + color.END + ".")
+        print("He yelled " + verb1 + "because a explosion just went off beside me.")
+        print("I lost my " + bodypart + "(s) in a explosion. It was as scary as " + somthing_scarry + ".")
+        print("Finally after a whole " + number + "days the white flag appeared on the other side of the field.")
+        print("WE WON.")
+        time.sleep(5)
+        print(
+            "-----------------------\n Thank you for playing \n" + color.BOLD + color.BLUE + "      Credits: " + color.END + " \n Main programing: Me \n Color/Boldness: Jim \n-----------------------")
+
+        return True
     else:
         return False
 #print(args.echo)
-if yes_or_no("This part of the code is the text of the question"):
+if yes_or_no("Please select a number"):
     print("Excellent! :D")
 else:
     print(bcolors.FAIL + "Operation cancelled. \nNo mail sent!\n ")
