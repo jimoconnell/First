@@ -93,26 +93,46 @@ def mad3():
 
 
 X = input("Chose a Mad Lib 1-3: ")
-if X == "1":
-    print("Initiating Mad Libs 1")
-    time.sleep(2)
-    print("initiated")
-    time.sleep(.5)
-    mad1()
-elif X == "2":
-    print("Initiating Mad Libs 2")
-    time.sleep(2)
-    print("initiated")
-    time.sleep(.5)
-    mad2()
-elif X == "3":
-    print("Initiating Mad Libs 3")
-    time.sleep(2)
-    print("initiated")
-    time.sleep(.5)
-    mad3()
-elif not(X == "1") and not(X == "2"):
-    print("Not a valid Mad Lib")
+#if X == "1":
+    #print("Initiating Mad Libs 1")
+    #time.sleep(2)
+    #print("initiated")
+    #time.sleep(.5)
+    #mad1()
+#elif X == "2":
+    #print("Initiating Mad Libs 2")
+    #time.sleep(2)
+    #print("initiated")
+    #time.sleep(.5)
+    #mad2()
+#elif X == "3":
+    #print("Initiating Mad Libs 3")
+    #time.sleep(2)
+    #print("initiated")
+    #time.sleep(.5)
+    #mad3()
+#elif not(X == "1") and not(X == "2"):
+    #print("Not a valid Mad Lib")
 
+    #while X == "1" or X == "2" or X == "3":
+     # if X == "1":
+         # print("Initiating Mad Libs 1")
+        #  time.sleep(2)
+         # print("initiated")
+         # time.sleep(.5)
+          #mad1()
+     #  elif X == "2":
+        # print("Initiating Mad Libs 2")
+         # time.sleep(2)
+         # print("initiated")
+        # time.sleep(.5)
+         # mad2()
+     #elif X == "3":
+         # print("Initiating Mad Libs 3")
+        # time.sleep(2)
+         #print("initiated")
+         #time.sleep(.5)
+         #mad3()
 
-
+#if not (X == "1") and not (X == "2"):
+        #print("Not a valid Mad Lib")
